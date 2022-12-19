@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background:black;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(208, 208, 208) !important;
+}
+#navbarSupportedContent a{
+    color: rgb(208, 208, 208);
+    border-bottom: 2px solid transparent;
+    font-weight: 300;
+    font-size: 20px;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 3px solid darkorange ;
+}
+.navbar .navbar-brand img{
+    height: 100px;
+    width: 100px;
+    
+}
+
+/*---home---*/
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#home h1{
+    margin-top: 200px;
+    font-size: 75px;
+    font-weight: 800;
+}
+#home button{
+    background-color: darkorange;
+    color: black;
+}
+
+/*---about---*/
+
+#about{
+    background: linear-gradient(white,darkorange);
+}
+#about img{
+    width: 25rem;
+    height: 25rem;
+    margin-left: 35px;
+}
+#about h1{
+    margin-right: 30px;
+}
+
+/*---services---*/
+
+#services{
+    background: linear-gradient(rgb(243, 210, 169),white);
+}
+.card img{
+    height: 300px; 
+    transition: .5s;
+}
+.inner{
+    overflow: hidden;
+}
+.card img:hover{
+    transform: scale(.7);
+    transition: .5s;
+}
+
+/*---contact---*/
+
+#contact{
+    background: linear-gradient(white,rgb(218, 217, 217));
+}
+
+#contact button{
+    background-color: darkorange;
+    color: black;
+}
+form{
+    padding: 40px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.5);
+    border-radius: 30px;
+}
+
+/*---footer---*/
+
+footer{
+    height: 12vh;
+    background-color: gray;
+    color: black;
+    padding: 15px;
+}
